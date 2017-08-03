@@ -15,6 +15,14 @@ p{
 	margin-top:5rem;
 }
 
+.btn-first{
+		background-color: $color_primary;
+		height: 5rem;
+		width: 17rem;
+		border:none;
+		margin-top: 2rem;
+	}
+
 .first{
 	background-image: url('../img/bg1.jpg');
 	height: 100vh;
@@ -50,13 +58,6 @@ p{
 	.subfirst{
 		color: $color_white;
 	}
-	.btn-first{
-		background-color: $color_primary;
-		height: 5rem;
-		width: 17rem;
-		border:none;
-		margin-top: 1rem;
-	}
 }
 
 .two{
@@ -68,13 +69,6 @@ p{
 		letter-spacing: 2pt;
 		margin-top: 5rem;
 		font-weight: 700;
-	}
-	.btn-first{
-		background-color: $color_primary;
-		height: 5rem;
-		width: 17rem;
-		border:none;
-		margin-top: 1rem;
 	}
 	.hands{
 		width: 60%;
@@ -88,13 +82,6 @@ p{
 		letter-spacing: 2pt;
 		margin-top: 10rem;
 		font-weight: 700;
-	}
-	.btn-first{
-		background-color: $color_primary;
-		height: 5rem;
-		width: 17rem;
-		border:none;
-		margin-top: 1rem;
 	}
 }
 
@@ -119,7 +106,7 @@ p{
 	background-repeat: none;
 	h2{
 		color: $color_white;
-		margin-top: 20rem;
+		margin-top: 25rem;
 	}
 	.boton-sub{
 		margin-left: 40rem;
@@ -127,6 +114,28 @@ p{
 	}
 	.click{
 		background-color: $color_primary;
+	}
+}
+
+.six{
+	padding:90px;
+	background-color: whitesmoke;
+	h4{
+		font-weight: 700;
+	}
+	.psix{
+		width: 70rem;
+		margin-left: 20rem;
+		color: black;
+
+	}
+}
+
+footer{
+	padding:15px;
+	.final{
+		font-weight: 700;
+		line-height: 20px;
 	}
 }
 
