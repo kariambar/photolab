@@ -17,7 +17,7 @@ p{
 
 .btn-first{
 		background-color: $color_primary;
-		height: 5rem;
+		height: 4rem;
 		width: 17rem;
 		border:none;
 		margin-top: 2rem;
@@ -149,4 +149,33 @@ footer{
 	.navbar-nav{
 		text-align:center;
 	}
+
+	.five{
+		.boton-sub{
+			margin-left: 2rem;
+			height: 5rem;
+		}
+	}
+	.six{
+	.psix{
+		width: 100%;
+		margin-left: 1rem;
+		color: black;
+	}
+
+	}
+	.three{
+	padding:50px 50px 50px 50px;
+	.titletwo{
+		color: $color_primary;
+		letter-spacing: 2pt;
+		margin-top: 4rem;
+		font-weight: 700;
+		}
+	}
+	.two{
+	padding:50px 50px 50px 50px;
+	}
+
 }	
+
