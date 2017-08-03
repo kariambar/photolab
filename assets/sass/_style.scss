@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: 'Varela Round', sans-serif;
+}
+
+p{
+	color:#ababad;
+	font-weight:100;
+	font-family: 'Raleway';
+	letter-spacing: 1pt;
+	margin-top:5rem;
+}
+
+.first{
+	background-image: url('../img/bg1.jpg');
+	height: 100vh;
+	background-size:cover;
+	background-position: center bottom;
+	background-repeat: none;
+	width: 100%;
+	.navbar-toggle, .sr-only{
+		background-color:$color_white;
+	}
+	
+	.navbar-default{
+	background-color: transparent;
+	border:none;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+    	color: $color_white;
+    	margin-top: 7rem;
+	}
+	.navbar-default .navbar-nav>li>a:hover {
+    	color: $color_primary;
+	}
+	.navbar-nav{
+		text-align:center;
+		margin-left: 50rem;
+	}
+	.titlefirst{
+		color: $color_white;
+		margin-top: 15rem;
+		font-weight: 700;
+	}
+	.subfirst{
+		color: $color_white;
+	}
+	.btn-first{
+		background-color: $color_primary;
+		height: 5rem;
+		width: 17rem;
+		border:none;
+		margin-top: 1rem;
+	}
+}
+
+.two{
+	background-color: whitesmoke;
+	padding:50px 50px 0 50px;
+
+	.titletwo{
+		color: $color_primary;
+		letter-spacing: 2pt;
+		margin-top: 5rem;
+		font-weight: 700;
+	}
+	.btn-first{
+		background-color: $color_primary;
+		height: 5rem;
+		width: 17rem;
+		border:none;
+		margin-top: 1rem;
+	}
+	.hands{
+		width: 60%;
+	}
+}
+
+.three{
+	padding:50px 50px 0 50px;
+	.titletwo{
+		color: $color_primary;
+		letter-spacing: 2pt;
+		margin-top: 10rem;
+		font-weight: 700;
+	}
+	.btn-first{
+		background-color: $color_primary;
+		height: 5rem;
+		width: 17rem;
+		border:none;
+		margin-top: 1rem;
+	}
+}
+
+.four{
+	padding: 100px;
+	background-color:whitesmoke;
+	h4{
+		margin-top: 5rem;
+		font-weight: 700;
+	}
+	.pfour{
+		color: black;
+	}
+}
+
+.five{
+	background-image: url('../img/bg2.jpg');
+	height:100vh;
+	width:100%;
+	background-size:cover;
+	background-position: center;
+	background-repeat: none;
+	h2{
+		color: $color_white;
+		margin-top: 20rem;
+	}
+	.boton-sub{
+		margin-left: 40rem;
+		height: 5rem;
+	}
+	.click{
+		background-color: $color_primary;
+	}
+}
+
+@media only screen and (max-width: 600px){ 
+#bs-example-navbar-collapse-1{
+		background-color: whitesmoke;
+	}
+	.first .navbar-default .navbar-nav>li>a {
+    color: #16a086;
+	}
+	.navbar-nav{
+		text-align:center;
+	}
+}	
